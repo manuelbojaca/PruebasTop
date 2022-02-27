@@ -2,7 +2,7 @@ function ajustarTexto (str, len) {
     if (len > str.length){
         let n = (str.length === 0) ? 1 : len - str.length;
         for (let i = 0; i < n; i++){
-            str = str + '1';
+            str = str + ' ';
         }
     }
     return str.substr(0, len);
